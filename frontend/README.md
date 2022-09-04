@@ -50,7 +50,7 @@ The API will return three error types when requests fail:
 * 422: Not Processable
 
 ## Endpoints
-### GET //questions
+### GET /questions
 * General:
 Returns a list of question objects, success value, and total number of questions
 Results are paginated in groups of 10. Include a request argument to choose page number, starting from 1.
@@ -141,6 +141,5 @@ Results are paginated in groups of 10. Include a request argument to choose page
   ],
   "success": true,
   "total_questions": 22
-}
-`
+}`
 ### POST /books
